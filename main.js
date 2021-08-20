@@ -62,8 +62,7 @@
 
   }
  
-  
-  updateDisplay(){
+   updateDisplay(){
 
     this.currentOperand.innerText= this.current;
     if(this.operator!=null){
