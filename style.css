@@ -8,8 +8,6 @@ h1{
     text-align: center;
     margin-top:50px;
 }
-
-
 .calculator{
     margin:50px auto;
     border:3px solid black;
@@ -30,8 +28,6 @@ h1{
     padding-right:10px;
     padding-top:5px;
     color:#fff;
-
-
 }
 .buttons{
     display:grid;
