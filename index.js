@@ -70,9 +70,8 @@ equalBtn.addEventListener("click", () => {
     try {
       inputScreen.value = eval(inputScreen.value);
     } catch (error) {
-      if (confirm(error)) {
-        inputScreen.value = "";
-      }
+      alert(error);
+      inputScreen.value = "";
     }
   }
 });
