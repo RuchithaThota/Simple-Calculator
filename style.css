@@ -15,6 +15,7 @@
 .container h2 {
   color: #41bbca;
   margin-bottom: 5px;
+/*   border:none */
 }
 .container .calculator {
   padding: 1.5em;
