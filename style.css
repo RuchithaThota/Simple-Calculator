@@ -51,7 +51,7 @@
   box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
-.container .calculator .equal {
+.container .calculator #equal {
   grid-column: span 2;
   width: 100%;
   border-radius: 42px;
