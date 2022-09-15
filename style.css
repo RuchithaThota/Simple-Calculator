@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  border: 1px solid black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .calculator {
+  padding: 1.5em;
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  width: 300px;
+  background-color: #ecf0f5;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 25px;
+}
+.container .calculator input {
+  grid-column: span 4;
+  border: none;
+  outline: none;
+  border-radius: 42px;
+  color: #333;
+  height: 60px;
+  width: 250px;
+  font-size: 1.7em;
+  padding: 0.7em;
+  background-color: #ecf0f3;
+  text-align: end;
+  box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0, 0, 0, 0.2);
+}
+.container .calculator button {
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  background-color: white;
+  box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+.container .calculator .equal {
+  grid-column: span 2;
+  width: 100%;
+  border-radius: 42px;
+  cursor: pointer;
+}
