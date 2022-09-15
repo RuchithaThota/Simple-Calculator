@@ -10,6 +10,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.container h2 {
+  color: #41bbca;
+  margin-bottom: 5px;
 }
 .container .calculator {
   padding: 1.5em;
